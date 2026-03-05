@@ -1,29 +1,26 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+target/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### Logs ###
+*.log
+
+### IntelliJ ###
+.idea/
+*.iws
+*.iml
+*.ipr
 
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### Sistema ###
 .DS_Store
+Thumbs.db
+# Ocultar la configuración de la API
+src/calculos/Configuracion.java
